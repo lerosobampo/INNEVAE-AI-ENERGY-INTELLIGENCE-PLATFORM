@@ -1,8 +1,63 @@
+# ==========================================
+# INNEVA.E — Git Ignore Configuration
+# ==========================================
+
+# Python environments
 .venv/
+venv/
+env/
 __pycache__/
-*.pyc
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Operating system and editor
 .DS_Store
+.Rhistory
+.vscode/
+.idea/
+
+# Environment variables and credentials
 .env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.toml
+.streamlit/secrets.toml
+
+# Streamlit local configuration
+.streamlit/
+
+# Local datasets and databases
+/data/
 *.db
 *.sqlite
 *.sqlite3
+
+# Local models and generated artifacts
+models/
+logs/
+reports/
+
+# Temporary files and backups
+*.log
+*.tmp
+*.bak
+*.backup
+*.backup_*
+*.py.backup_*
+.gitignore.backup
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Legacy backup scripts
+*.py.backup_*
+*BACKUP*.py

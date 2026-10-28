@@ -1,0 +1,32 @@
+{
+  "timestamp_conventions": {
+    "KNMI": "YYYYMMDD + (HH-1) hours is hour start",
+    "energy": "validfrom (UTC) is hour start; no shift",
+    "prices": "Datetime (UTC) retained as source hour"
+  },
+  "expected_hours": 24096,
+  "weather_station_rows": 192768,
+  "demand_missing": {
+    "actual_load_missing": 0
+  },
+  "solar_missing": {
+    "solar_missing": 0
+  },
+  "wind_onshore_missing": {
+    "wind_onshore_missing": 0
+  },
+  "wind_offshore_missing": {
+    "wind_offshore_missing": 25
+  },
+  "prices_missing": {
+    "price_missing": 4
+  },
+  "master_rows": 24096,
+  "dev_rows": 2160,
+  "first_hour": "2024-01-01 00:00:00+00:00",
+  "last_hour": "2026-09-30 23:00:00+00:00",
+  "last_interval_end": "2026-10-01 00:00:00+00:00",
+  "national_weather_nulls": 0,
+  "boundary_check_station_260_2024_01_01_00_temp_c": 7.8,
+  "status": "timestamp alignment verified against source interval conventions; remaining missing measurements retained"
+}

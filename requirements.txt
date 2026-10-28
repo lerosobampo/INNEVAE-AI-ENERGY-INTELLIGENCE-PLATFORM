@@ -1,0 +1,31 @@
+
+# INNEVA.E — Python Dependencies
+# Verified local environment: Python 3.12.6
+
+# Dashboard
+streamlit==1.66.1
+pillow==13.0.0
+
+# Data processing
+pandas==3.1.0
+numpy==2.5.4
+
+# Machine learning and forecasting
+scikit-learn==1.9.1
+joblib==1.6.0
+
+# Visualization
+plotly==7.1.0
+matplotlib==3.11.2
+
+# Local AI
+ollama==0.6.3
+
+# Configuration
+python-dotenv==1.2.4
+
+# Report generation
+reportlab==5.1.0
+
+# Optional API integration
+openai==3.37.0
